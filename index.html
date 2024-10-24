@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Webpage</title>
-    <style>
-        /* Add your custom CSS styles here */
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 </head>
-<body>
-    <header>
-        <h1>Welcome to James Kuo-Ping Lo's Personal Webpage</h1>
+<body class="container">
+    
+    <header class="hero">
+        <div class="hero-body">
+            <h1 class="title">Welcome to James Kuo-Ping Lo's Personal Webpage</h1>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#temp">COSCUP Slides</a></li>
-        </ul>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#temp">COSCUP Slides</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself and your interests.</p>
+        <section id="about" class="section">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>James Kuo-Ping Lo is a passionate CS and Learning Science new grad in 2025 who eager to learn continuously. Studying across 2 well reputed universities in 2 majors and 1 credit program, with multi-disciplinary experiences in both industry and academic such as Google and Artificial Intelligence in Education(AIED). He is also an open source contributor for several originations such as the VideoLAN Project and SITCON, a student-focused community in Taiwan.</p>
+            </div>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <ol>
-                <li>NTU Leadership Program, National Taiwan University</li>
-                <li>Bachelor of Science, Computer Science and Information Engineering, National Taiwan Normal University</li>
-                <li>Bachelor of Information Science, Learning Sciences, National Taiwan Normal University</li>
-            </ol>
+        <section id="education" class="section">
+            <div class="content">
+                <h2 class="title is-four">Education</h2>
+                <ol>
+                    <li>NTU Leadership Program, National Taiwan University</li>
+                    <li>Bachelor of Science, Computer Science and Information Engineering, National Taiwan Normal University</li>
+                    <li>Bachelor of Information Science, Learning Sciences, National Taiwan Normal University</li>
+                </ol>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Highlight some of your notable software engineering projects or academic research.</p>
+        <section id="projects" class="section">
+            <div class="content">
+                <h2 class="title is-four">Projects</h2>
+                <p>Highlight some of your notable software engineering projects or academic research.</p>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <a href="https://www.linkedin.com/in/misawai/">LinkedIn</a>
+        <section id="contact" class="section">
+            <div class="content">
+                <h2 class="title is-four">Contact</h2>
+                <a href="https://www.linkedin.com/in/misawai/">LinkedIn</a>
+            </div>
         </section>
-        <section id="temp">
-            <h2>COSCUP Slides</h2>
-            <h3>Cloud 101</h3>
-            <a href="https://docs.google.com/presentation/d/1VoWKAnwTtPz3tEUqw1fsjgVS2HAojuyCbC3wkHFpLEs">Slide Link</a>
-            <h3>Radio-Browser.API</h3>
-            <a href="https://docs.google.com/presentation/d/1I76OCnPOQxlzGaoDbQZfZK3OVS9QwWeJ7SGAebwLT9Y">Slide Link</a>
+        <section id="temp" class="section">
+            <div class="content">
+                <h2 class="title is-four">COSCUP Slides</h2>
+                <h3 class="title is-five">Cloud 101</h3>
+                <a href="https://docs.google.com/presentation/d/1VoWKAnwTtPz3tEUqw1fsjgVS2HAojuyCbC3wkHFpLEs">Slide Link</a>
+                <h3 class="title is-five">Radio-Browser.API</h3>
+                <a href="https://docs.google.com/presentation/d/1I76OCnPOQxlzGaoDbQZfZK3OVS9QwWeJ7SGAebwLT9Y">Slide Link</a>
+            </div>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Your Name</p>
+    <footer class="footer">
+        <p>&copy; 2024 James Kuo-Ping Lo</p>
+        <div class="content">
+            <p>Webpage style using <a href="https://bulma.io/">Bulma</a> .</p>
+        </div>
     </footer>
 </body>
 </html>
